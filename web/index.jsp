@@ -9,6 +9,13 @@
 <html>
 <head>
     <title>$Title$</title>
+    <style>
+
+        #wrapperDiv {
+            color: brown;
+        }
+
+    </style>
     <script>
         window.onload = function () {
 
