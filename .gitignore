@@ -1,3 +1,5 @@
 
 *.iml
 *.xml
+*.class
+out/artifacts/unnamed/unnamed.war

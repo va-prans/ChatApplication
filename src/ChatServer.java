@@ -32,7 +32,6 @@ public class ChatServer {
         System.out.println("New session(unauthorized): " + userSession.getId());
         unauthorizedUsers.add(userSession);
     }
-
     @OnMessage
     public void handleMessage(String message, Session userSession){
         //if user is authorized
