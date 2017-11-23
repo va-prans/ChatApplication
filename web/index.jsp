@@ -415,6 +415,7 @@
 
                 //show text indicating successful creation of account
                 alert("Succesfully created account with username: " + uname);
+                usernameField.focus();
             }
             else {
                 //show text indicating we already created an account
